@@ -1,91 +1,34 @@
-@import url('http://fonts.cdnfonts.com/css/gilroy-bold');
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
 body {
-  font-family: 'Gilroy-Light', sans-serif;
-  display: flex;
-  flex-direction: column;
   background-color: #2a2021;
-  transition: 0.3s;
-}
-
-main {
-  height: 851px;
-  width: 393px;
-  margin: 40px auto 30px;
-  border-radius: 30px;
 }
 
 
 /* Display */
 .container {
-  height: 35%;
   background-color: #1f1919;
-  border-radius: 30px 30px 0 0;
 }
 
 .display {
   background-color: #3e2d2f;
-  height: 100%;
-  border-radius: 30px;
 }
 
 
 /* Buttons Grid */
 .buttons-grid {
   background-color: #1f1919;
-  height: 65%;
-  border-radius: 0 0 30px 30px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 20px;
 }
 
 .button {
-  font-family: 'Gilroy-Bold', sans-serif;
-  font-size: 36px;
   color: #fdd8d9;
-  height: 85px;
-  width: 85px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  transition: .15s;
-}
-
-.button:active {
-  border-radius: 25%;
-  transition: .15s;
 }
 
 .clear {
   background-color: #5d411a;
   color: #ffddb5;
-  width: 180px;
-  border-radius: 90px;
 }
 
 .clear:active {
   background-color: #7e694a;
-  border-radius: 25px;
-}
-
-#ac {
-  grid-column: 1 / 3;
-}
-
-#delete {
-  grid-column: 3 / 5;
 }
 
 .nums {
@@ -97,9 +40,7 @@ main {
 }
 
 .operation {
-  font-family: 'Gilroy-Regular', sans-serif;
   background-color: #5c3e41;
-  font-size: 60px;
 }
 
 .operation:active {
@@ -109,17 +50,9 @@ main {
 
 /* Footer */
 footer {
-  font-family: 'Gilroy-Regular', sans-serif;
   color: #fdd8d9;
-  margin: auto;
 }
 
 footer i {
   color: #fdd8d9;
-  transition: 0.2s;
-}
-
-footer i:hover {
-  transform: rotate(360deg);
-  transition: 0.2s;
 }
