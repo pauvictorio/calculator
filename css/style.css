@@ -10,7 +10,6 @@ body {
   font-family: 'Gilroy-Regular', sans-serif;
   display: flex;
   flex-direction: column;
-  transition: 0.15s;
 }
 
 main {
@@ -60,7 +59,6 @@ main {
 
 .button:active {
   border-radius: 25%;
-  transition: .15s;
 }
 
 .clear {
@@ -93,11 +91,6 @@ footer {
   margin: auto;
 }
 
-footer i {
-  transition: 0.2s;
-}
-
 footer i:hover {
   transform: rotate(360deg);
-  transition: 0.15s;
 }
