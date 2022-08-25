@@ -21,8 +21,3 @@ window.addEventListener('click', e => {
   const key = e.target;
   if (keys.includes(key)) console.log(key);
 });
-
-function btnChrome_onclick() {
-  document.documentElement.webkitRequestFullScreen();
-}
-
