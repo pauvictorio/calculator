@@ -80,6 +80,7 @@ main {
   align-items: center;
   cursor: pointer;
   transition: 0.15s;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .button:active {
@@ -120,7 +121,7 @@ footer i:hover {
   transform: rotate(360deg) scale(1.2);
 }
 
-@media (max-width: 393px) {
+@media (max-width: 400px) {
   main {
     margin: 0 auto 30px;
   }
