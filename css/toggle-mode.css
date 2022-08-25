@@ -31,7 +31,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #1f1919;
+  background-color: #3e2d2f;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -43,7 +43,7 @@
   width: 14px;
   left: 4px;
   bottom: 4px;
-  background-color: #fffbff;
+  background-color: #f0e2e6;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -56,7 +56,7 @@ input:checked + .slider:before {
   -webkit-transform: translateX(14px);
   -ms-transform: translateX(14px);
   transform: translateX(14px);
-  background-color: #1f1919;
+  background-color: #3e2d2f;
 }
 
 /* Rounded sliders */
