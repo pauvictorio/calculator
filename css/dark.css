@@ -12,6 +12,14 @@ body {
   background-color: #3e2d2f;
 }
 
+.operation-screen {
+  color: #ede0df;
+}
+
+.results-screen {
+  color: #d7c1c2;
+}
+
 
 /* Buttons Grid */
 .buttons-grid {
@@ -45,6 +53,14 @@ body {
 
 .operation:active {
   background-color: #7f6869;
+}
+
+[data-key='='] {
+  background-color: #72343a;
+}
+
+[data-key='=']:active {
+  background-color: #905e65;
 }
 
 
