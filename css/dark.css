@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #2a2021;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 main {
@@ -59,6 +59,13 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+  transition: .15s;
+}
+
+.button:active {
+  border-radius: 25%;
+  transition: .15s;
 }
 
 .clear {
@@ -66,6 +73,11 @@ main {
   color: #ffddb5;
   width: 180px;
   border-radius: 90px;
+}
+
+.clear:active {
+  background-color: #7e694a;
+  border-radius: 25px;
 }
 
 #ac {
@@ -80,10 +92,18 @@ main {
   background-color: #2a2021;
 }
 
+.nums:active {
+  background-color: #585051;
+}
+
 .operation {
   font-family: 'Gilroy-Regular', sans-serif;
   background-color: #5c3e41;
   font-size: 60px;
+}
+
+.operation:active {
+  background-color: #7f6869;
 }
 
 
@@ -96,4 +116,10 @@ footer {
 
 footer i {
   color: #fdd8d9;
+  transition: 0.2s;
+}
+
+footer i:hover {
+  transform: rotate(360deg);
+  transition: 0.2s;
 }

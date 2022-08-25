@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #f9f1f5;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 main {
@@ -60,12 +60,23 @@ main {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  transition: .15s;
+}
+
+.button:active {
+  border-radius: 25%;
+  transition: .15s;
 }
 
 .clear {
   background-color: #ffddb5;
   width: 180px;
   border-radius: 90px;
+}
+
+.clear:active {
+  background-color: #c8ae8f;
+  border-radius: 25px;
 }
 
 #ac {
@@ -80,10 +91,18 @@ main {
   background-color: #f9f1f5;
 }
 
+.nums:active {
+  background-color: #c4bec2;
+}
+
 .operation {
   font-family: 'Gilroy-Regular', sans-serif;
   background-color: #ffdadb;
   font-size: 60px;
+}
+
+.operation:active {
+  background-color: #caadac;
 }
 
 /* Footer */
@@ -95,4 +114,10 @@ footer {
 
 footer i {
   color: #2b1315;
+  transition: 0.2s;
+}
+
+footer i:hover {
+  transform: rotate(360deg);
+  transition: 0.2s;
 }
