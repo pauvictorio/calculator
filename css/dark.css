@@ -41,6 +41,49 @@ main {
   background-color: #1f1919;
   height: 65%;
   border-radius: 0 0 30px 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.button {
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-size: 32px;
+  color: #fdd8d9;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clear {
+  background-color: #5d411a;
+  color: #ffddb5;
+  width: 180px;
+  border-radius: 90px;
+}
+
+#ac {
+  grid-column: 1 / 3;
+}
+
+#delete {
+  grid-column: 3 / 5;
+}
+
+.nums {
+  background-color: #2a2021;
+}
+
+.operation {
+  font-family: 'Gilroy-Regular', sans-serif;
+  background-color: #5c3e41;
+  font-size: 60px;
 }
 
 
