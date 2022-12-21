@@ -36,7 +36,7 @@ main {
 }
 
 .operation-screen,
-.results-screen {
+.result-screen {
   font-weight: 500;
   display: flex;
   justify-content: end;
@@ -51,7 +51,7 @@ main {
   height: 25%;
 }
 
-.results-screen {
+.result-screen {
   /* background-color: aqua; */
   font-size: 68px;
   height: 40%;
